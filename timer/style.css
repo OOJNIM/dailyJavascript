@@ -5,8 +5,13 @@ body {
     justify-content: center;
     height: 100vh;
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-    
 }
+
+.container {
+    text-align: center;
+}
+
+
 
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -15,26 +20,13 @@ h1{
 }
 
 
-#digit {
+#value {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size:7rem;
     margin-bottom: 2rem;
 }
 
-.negative {
-    color : red;
-}
-
-
-.positive {
-    color: blue;
-
-}
-
-.zero {
-    color : purple;
-}
 
 
 button {
